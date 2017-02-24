@@ -2,7 +2,7 @@ require 'zurb-foundation'
 require './lib/functions'
 
 http_path = '/'
-css_dir = 'stylesheets'
+css_dir = 'docs'
 sass_dir = 'sass'
 images_dir = 'images'
 javascripts_dir = 'javascripts'
