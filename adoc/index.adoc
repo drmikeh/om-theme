@@ -30,4 +30,4 @@ endif::[]
 
 ## About
 
-This theme consists of some SASS files that are compiled with _Compass_ to generate a CSS file. The CSS file is served from the _docs_ folder using `gh-pages` with the URL `url goes here`.
+This theme consists of some SASS files that are compiled with _Compass_ to generate a CSS file. The CSS file is served from the _docs_ folder using `gh-pages` with the URL https://drmikeh.github.io/om-theme/orange-method.css[https://drmikeh.github.io/om-theme/orange-method.css].

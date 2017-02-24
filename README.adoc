@@ -1,4 +1,37 @@
-= Asciidoctor stylesheet factory
+# image:orange-method-sticker.png[caption="Orange Method", title="Orange Method", alt="Orange Method", width="130", link="https://github.homedepot.com/OrangeMethod"] {lesson-title}
+Orange Method
+:lesson-title: Orange Method Theme for AsciiDoc Lessons
+:tags: orange-method asciidoc
+:description: Orange Method Theme for AsciiDoc Lessons
+:library: Asciidoctor
+:source-highlighter: pygments
+:pygments-linenums-mode: table
+:experimental:
+:idprefix:
+:numbered:
+:imagesdir: images
+:toc: left
+:toc-title: Topics
+:toclevels: 4
+// :css-signature: demo
+// :max-width: 800px
+// :doctype: book
+// :sectids!:
+:icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+{description}
+
+This theme consists of some SASS files that are compiled with _Compass_ to generate a CSS file. The CSS file is served from the _docs_ folder using `gh-pages` with the URL https://drmikeh.github.io/om-theme/orange-method.css[https://drmikeh.github.io/om-theme/orange-method.css].
+
+
+## Asciidoctor stylesheet factory
 Dan Allen
 :toc:
 :source: https://github.com/asciidoctor/asciidoctor-stylesheet-factory
@@ -61,7 +94,7 @@ Then, use AsciiDoc or Asciidoctor to generate HTML that uses one of the styleshe
 
 If you want to activate syntax highlighting in the code, add this argument:
 
- -a source-highlighter=highlightjs 
+ -a source-highlighter=highlightjs
 
 Now just browse to +sample.html+ in your browser and checkout the result!
 
