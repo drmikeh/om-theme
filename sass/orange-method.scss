@@ -1,0 +1,107 @@
+//@import "fonts/asciidoctor";
+@import "fonts/golo-collection";
+@import "settings/orange-method";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+// #header::before {
+//   content: url(images/orange-method-sticker.png);
+// }
+
+#header {
+  // background-color: #333;
+  margin-bottom: 4em;
+
+  & > h1 {
+    border-bottom: none;
+    margin-bottom: -28px;
+    margin-top: 2em;
+  }
+
+  & > h1:first-child {
+    // color: white;
+  }
+
+  span {
+    color: white;
+  }
+
+  img {
+    margin-left: -30px;
+    margin-right: 20px;
+    padding-right: 30px;
+    border-right: 2px solid #ddd; // $sect-divider-color;
+  }
+
+  #toc {
+    padding-top: 2em;
+    margin-bottom: -4em;
+  }
+  .details {
+    border-bottom: none;
+  }
+}
+
+// toc
+#toctitle {
+  color: black;
+  font-weight: normal;
+  margin-top: 1.5em;
+}
+
+#footer {
+  background-color: $HomeDepotColor;
+  margin: 0 auto;
+  padding: 0.5em;
+  max-width: 100%;
+}
+
+#footer-text {
+  text-align: center;
+}
+
+
+dt, th.tableblock, td.content, div.footnote {
+  // NOTE text-rendering is already set for p
+  text-rendering: optimizeLegibility;
+}
+
+// QUESTION should we tighten letter spacing of text in footnotes?
+h1, h2, p, td.content, span.alt {
+  letter-spacing: -0.01em;
+}
+
+p, td.content, div.footnote {
+  strong {
+    // NOTE needs to apply anywhere we have bold prose
+    letter-spacing: -0.005em;
+  }
+}
+
+// NOTE include blockquote for when it doesn't have a nested p
+p, blockquote, dt, td.content, span.alt {
+  font-size: 1.0625rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+// restore font size in sidebar block and regular table cells
+.sidebarblock p, .sidebarblock dt, .sidebarblock td.content, p.tableblock {
+  font-size: 1em;
+}
+
+.exampleblock > .content {
+  // white
+  //background-color: #fff;
+  //border-color: $panel-border-color;
+  //@include single-box-shadow($panel-border-color, 0, 1px, 2px);
+
+  // light yellow
+  background-color: #fffef7; // from rgb(252,247,227), analogous to #f8f8f7
+  border-color: $panel-border-color;
+  @include single-box-shadow($panel-border-color, 0, 1px, 4px);
+}
+
+@import "components/print";

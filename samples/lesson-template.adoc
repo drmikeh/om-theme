@@ -1,0 +1,131 @@
+# image:orange-method-sticker.png[caption="Orange Method", title="Orange Method", alt="Orange Method", width="130", link="https://github.homedepot.com/OrangeMethod"] {lesson-title}
+TODO: Your Unit Name Goes Here
+:lesson-title: TODO: Your Lesson Title Goes Here
+:tags: {TODO: space separated tags go here}
+:description: TODO: Your Lesson Description Goes Here
+:library: Asciidoctor
+:source-highlighter: pygments
+:pygments-linenums-mode: table
+:experimental:
+:idprefix:
+:numbered:
+:imagesdir: images
+:toc: left
+:toc-title: Topics
+:toclevels: 4
+// :css-signature: demo
+// :max-width: 800px
+// :doctype: book
+// :sectids!:
+:icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+{description}
+
+Optional: You can put other short intro stuff here.
+
+## Learning Objectives
+
+### Concepts
+
+* Concept 1
+* Concept 2
+* Concept 3
+
+### Skills
+
+* Skill 1
+* Skill 2
+* Skill 3
+
+## Topic 1
+
+Content for topic 1.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+NOTE: Here is an informational note.
+
+Here is a table:
+
+.Tables are fun
+[cols="3*^.^3d", options="header"]
+|===
+|Column 1
+|Column 2
+|Column 3
+|Cell 1.1
+|{set:cellbgcolor:#00FF00}
+Cell 1.2 A Green cell
+|{set:cellbgcolor!}
+Cell 1.3
+|{set:cellbgcolor:#66AAFF}
+Cell 2.1 A Blue cell
+|{set:cellbgcolor!}
+Cell 2.2
+|{set:cellbgcolor:#FFFF00}
+Cell 2.3 A Yellow cell
+|{set:cellbgcolor!}
+|===
+
+
+## Topic 2
+
+Content for topic 2
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+TIP: Get some exercise!
+
+Here is a picture of Atlanta:
+
+.Atlanta, GA
+image::atlanta.jpg[alt="Atlanta", width="600", align="center"]
+
+## Topic 3
+
+Content for topic 3
+
+Here is some code:
+
+```javascript
+function add(a, b) {
+  return a + b;
+}
+```
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Here is some code included from an external source file with #_line numbers_#:
+
+.fact.js
+[source,javascript,linenums]
+----
+include::src/fact.js[]
+----
+
+
+Here is a link: http://www.google.com[Google]
+
+## Summary
+
+[qanda]
+What is Asciidoctor?::
+  An implementation of the AsciiDoc processor in Ruby.
+What is the answer to the Ultimate Question?:: 42
+
+## Additional Resources
+
+* a link to a resource related to this lesson
+* another link
+* another link
+
+## Exercises
+
+List exercises (content or links) related to this lesson.
