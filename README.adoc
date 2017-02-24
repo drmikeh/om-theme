@@ -9,7 +9,7 @@ Orange Method
 :experimental:
 :idprefix:
 :numbered:
-:imagesdir: images
+:imagesdir: docs/images
 :toc: left
 :toc-title: Topics
 :toclevels: 4
@@ -27,6 +27,8 @@ ifdef::env-github[]
 endif::[]
 
 {description}
+
+## About
 
 This theme consists of some SASS files that are compiled with _Compass_ to generate a CSS file. The CSS file is served from the _docs_ folder using `gh-pages` with the URL https://drmikeh.github.io/om-theme/orange-method.css[https://drmikeh.github.io/om-theme/orange-method.css].
 
